@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  background-color: hsl(184, 40%, 71%);
+
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  max-width: 1080px;
+  height: 48px;
+  margin: 0 auto;
+  padding-top: 1rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu_item {
+  width: 100%;
+  height: 100%;
+}
+
+.menu_item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: WHITE;
+}
+
+.menu_item a:hover {
+  color: #032b2e;
+  background-color: #cfecee;
+
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.menu_item a[active='true'] {
+  color: #032b2e;
+  background-color: white;
+
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
