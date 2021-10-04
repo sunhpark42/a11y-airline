@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react';
 import styles from '../src/styles/index.module.css';
 
 import Head from 'next/head';
+import Header from '../src/Components/Header';
+import PATH from '../src/constants/path';
 
 const DetailPage = () => {
   return (
@@ -11,6 +12,7 @@ const DetailPage = () => {
 
         <title>제주도 항공권</title>
       </Head>
+      <Header currentPath={PATH.DETAIL} />
       <main>
         <h1 className={styles.page_top_hidden__heading}>우테코 항공</h1>
         <h2>제주도 항공권</h2>

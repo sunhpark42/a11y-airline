@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import Head from 'next/head';
 
 import styles from '../src/styles/index.module.css';
+import Header from '../src/Components/Header';
+import PATH from '../src/constants/path';
 
 const DEFAULT_PASSENGER_NUMBER = 1;
 const MIN_PASSENGER_NUMBER = 1;
@@ -106,6 +108,7 @@ const Reservation = () => {
 
         <title>우테코 항공 | 예약하기</title>
       </Head>
+      <Header currentPath={PATH.RESERVATION} />
       <main>
         <h1 className={styles.page_top_hidden__heading}>우테코 항공</h1>
         <h2>예약하기</h2>
