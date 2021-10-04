@@ -1,7 +1,7 @@
 import React from 'react';
 import PATH from '../constants/path';
 
-import styles from '../styles/header.module.css';
+import styles from '../styles/Header.module.css';
 
 const menuList = [
   {
