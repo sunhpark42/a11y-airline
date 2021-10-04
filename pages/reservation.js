@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Head from 'next/head';
 
 import styles from '../src/styles/index.module.css';
-import Header from '../src/Components/Header';
+import Header from '../src/Components/Header/Header';
 import PATH from '../src/constants/path';
 
 const DEFAULT_PASSENGER_NUMBER = 1;

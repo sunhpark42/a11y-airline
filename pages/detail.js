@@ -1,7 +1,7 @@
 import styles from '../src/styles/index.module.css';
 
 import Head from 'next/head';
-import Header from '../src/Components/Header';
+import Header from '../src/Components/Header/Header';
 import PATH from '../src/constants/path';
 
 const DetailPage = () => {
