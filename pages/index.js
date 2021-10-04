@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import Header from '../src/Components/Header/Header';
+import Header from '../src/components/Header/Header';
 import PATH from '../src/constants/path';
 
-import styles from '../src/styles/index.module.css';
+import styles from './index.module.css';
 
 const HomePage = () => {
   return (

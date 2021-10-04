@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import Head from 'next/head';
 
-import styles from '../src/styles/index.module.css';
-import Header from '../src/Components/Header/Header';
-import PATH from '../src/constants/path';
+import styles from './index.module.css';
+import Header from '../../src/components/Header/Header';
+import PATH from '../../src/constants/path';
 
 const DEFAULT_PASSENGER_NUMBER = 1;
 const MIN_PASSENGER_NUMBER = 1;
