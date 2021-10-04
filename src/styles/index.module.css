@@ -102,24 +102,3 @@
   border-left: 6px solid transparent;
   border-right: 6px solid #c3f2f5;
 }
-
-.round__button {
-  width: 32px;
-  height: 32px;
-
-  text-align: center;
-  justify-content: center;
-  font-weight: 600;
-
-  background-color: white;
-
-  border-radius: 50%;
-  border: 1px solid #aaa;
-
-  cursor: pointer;
-}
-
-.round__button[aria-disabled='true'] {
-  cursor: not-allowed;
-  opacity: 0.5;
-}
